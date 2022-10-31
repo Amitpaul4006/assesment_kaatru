@@ -1,0 +1,7 @@
+.dashboard {
+  width: 90vh;
+  height: 60vh;
+  border-radius: 25px;
+  display: flex;
+  overflow: hidden;
+}
