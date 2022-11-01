@@ -53,6 +53,7 @@ const Content = () => {
       <h5>More details of today's weather</h5>
       <div className="more-details">
         {OTHER_DETAILS.map((item) => (
+          // eslint-disable-next-line jsx-a11y/img-redundant-alt
           <img src={item} alt="graph image" className="card"></img>
         ))}
       </div>
