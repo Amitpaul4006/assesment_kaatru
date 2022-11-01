@@ -17,13 +17,23 @@ const SideBar = () => {
         </div>
       </section>
       <section className="location">
-        <div className="location-head">
-          <span class="material-icons">near_me</span>
-          <p>New York, USA</p>
+        <div className="location-head-container">
+          <div className="location-head">
+            <span class="material-icons">near_me</span>
+            <p>New York, USA</p>
+          </div>
+          <div>
+            <p>today, 28 sept</p>
+          </div>
         </div>
-
         <div>
-          <p>today, 28 sept</p>
+          <div>
+            <p>07:19</p>
+          </div>
+
+          <div>
+            <p>19:32</p>
+          </div>
         </div>
       </section>
       <section className="weather">27 &#xb0;</section>
